@@ -4,7 +4,7 @@
 
 import csv
 
-Germany = open("germany-latest.csv", "r", encoding="utf-8") #open file
+Germany = open("germany.csv", "r", encoding="utf-8") #open file
 fieldnames = ("Category","OSM - id","Latitude","Longitude","Place")
 reader = csv.DictReader(Germany, fieldnames, delimiter = "|")
 germany_list =[]
@@ -31,7 +31,7 @@ Germany.close() #close file
 
 ## ITALY
 
-italy = open("italy-latest.csv", "r", encoding="utf-8") #open file
+italy = open("italy.csv", "r", encoding="utf-8") #open file
 fieldnames = ("Category","OSM - id","Latitude","Longitude","Place")
 reader = csv.DictReader(italy, fieldnames, delimiter = "|")
 italy_list =[]
@@ -59,7 +59,7 @@ italy.close()
 
 ## SPAIN
 
-Spain = open("spain-latest.csv", "r", encoding="utf-8") #open file
+Spain = open("spain.csv", "r", encoding="utf-8") #open file
 fieldnames = ("Category","OSM - id","Latitude","Longitude","Place")
 reader = csv.DictReader(Spain, fieldnames, delimiter = "|")
 spain_list =[]
@@ -88,7 +88,7 @@ Spain.close()
 
 ## FRANCE
 
-France = open("france-latest.csv", "r", encoding="utf-8") #open file
+France = open("france.csv", "r", encoding="utf-8") #open file
 fieldnames = ("Category","OSM - id","Latitude","Longitude","Place")
 reader = csv.DictReader(France, fieldnames, delimiter = "|")
 france_list =[]
@@ -117,7 +117,7 @@ France.close()
 
 ## GREAT-BRITAIN
 
-GB = open("great-britain-latest.csv", "r", encoding="utf-8") #open file
+GB = open("great-britain.csv", "r", encoding="utf-8") #open file
 fieldnames = ("Category","OSM - id","Latitude","Longitude","Place")
 reader = csv.DictReader(GB, fieldnames, delimiter = "|")
 gb_list =[]
